@@ -13,6 +13,30 @@ export default function Projects() {
         "Generación de 10,000 leads en el primer mes",
         "ROI del 300% en campañas publicitarias"
       ]
+    },
+    {
+      title: "Campaña de Lanzamiento de Producto X",
+      client: "Tech Innovators Inc.",
+      category: "Lanzamiento de Producto",
+      description:
+        "Desarrollé y ejecuté una campaña integral de marketing digital para el lanzamiento del Producto X, logrando alta visibilidad y un sólido posicionamiento en su segmento objetivo.",
+      metrics: [
+        "Aumento del 40% en notoriedad de marca",
+        "Generación de 10,000 leads en el primer mes",
+        "ROI del 300% en campañas publicitarias"
+      ]
+    },
+    {
+      title: "Campaña de Lanzamiento de Producto X",
+      client: "Tech Innovators Inc.",
+      category: "Lanzamiento de Producto",
+      description:
+        "Desarrollé y ejecuté una campaña integral de marketing digital para el lanzamiento del Producto X, logrando alta visibilidad y un sólido posicionamiento en su segmento objetivo.",
+      metrics: [
+        "Aumento del 40% en notoriedad de marca",
+        "Generación de 10,000 leads en el primer mes",
+        "ROI del 300% en campañas publicitarias"
+      ]
     }
   ];
 
