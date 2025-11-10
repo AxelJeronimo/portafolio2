@@ -14,6 +14,7 @@ import Skills from './components/skills';
 import Projects from './components/projects';
 import Contact from './components/contact';
 import Footer from './components/footer';
+import ProjectModal from './components/ProyectModal';
 
 export default function Portfolio() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -39,11 +40,10 @@ export default function Portfolio() {
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 text-white">
       {/* Navigation */}
       <nav
-        className={`fixed w-full z-50 transition-all duration-300 ${
-          scrolled
-            ? 'bg-slate-900/95 backdrop-blur-lg shadow-md border-b border-slate-700/40'
-            : 'bg-transparent'
-        }`}
+        className={`fixed w-full z-50 transition-all duration-300 ${scrolled
+          ? 'bg-slate-900/95 backdrop-blur-lg shadow-md border-b border-slate-700/40'
+          : 'bg-transparent'
+          }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
@@ -57,9 +57,8 @@ export default function Portfolio() {
                   <button
                     key={item}
                     onClick={() => scrollToSection(item)}
-                    className={`capitalize hover:text-amber-400 transition-colors ${
-                      activeSection === item ? 'text-amber-400' : 'text-gray-300'
-                    }`}
+                    className={`capitalize hover:text-amber-400 transition-colors ${activeSection === item ? 'text-amber-400' : 'text-gray-300'
+                      }`}
                   >
                     {item.replace('-', ' ')}
                   </button>
@@ -113,12 +112,13 @@ export default function Portfolio() {
             Axel Alvarenga
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-4">
-            Estratega en Marketing Digital
+            Analista de Datos Bilingüe & Desarrollador Híbrido (Python / BI)
           </p>
           <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Impulso el crecimiento de marcas mediante estrategias digitales
-            integrales, combinando análisis de datos, innovación y enfoque en la
-            experiencia del cliente.
+            Estudiante <span className="font-bold">Bilingüe</span> con pasión por transformar datos complejos en información de
+            negocio estratégico. Mi enfoque es aplicar mis certificaciones en <span className="font-bold">Python</span> y <span className="font-bold">Microsoft
+              Excel</span> para desarrollar una base sólida en <span className="font-bold">Business Intelligence</span> y <span className="font-bold">Data-Driven
+                Marketing</span>.
           </p>
           <div className="flex gap-4 justify-center mb-12">
             <button

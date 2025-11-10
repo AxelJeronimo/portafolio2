@@ -1,5 +1,5 @@
 import React from 'react'
-import { Briefcase, Award, Target, TrendingUp } from 'lucide-react';
+import { Briefcase, Award, Target, TrendingUp, Rocket } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -12,11 +12,20 @@ export default function Hero() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Texto principal */}
           <div>
-            <p className="text-gray-300 mb-6 leading-relaxed">
-              Con formación en marketing digital y un enfoque estratégico, he dedicado mi carrera a impulsar el crecimiento de marcas mediante soluciones digitales efectivas y medibles.
+            <p className="max-w-3xl mx-auto text-gray-400 text-lg mb-4">
+              Soy un estudiante <span className="font-bold">Bilingüe</span> con una base técnica sólida y
+              validada por certificaciones de <span className="font-bold">Certiport</span> en <span className="font-bold">Python</span> y
+              <span className="font-bold">Microsoft Excel</span>. Mi pasión es la <span className="font-bold">programación</span> y el <span className="font-bold">análisis
+                de datos</span>, enfocándome en transformar datos complejos en
+              información de negocio estratégico.
             </p>
-            <p className="text-gray-300 mb-6 leading-relaxed">
-              Combino análisis de datos, creatividad e innovación para diseñar campañas que conectan con las personas y fortalecen la identidad de marca de forma sostenible.
+
+            <p className="max-w-3xl mx-auto text-gray-400 text-lg mb-10">
+              Más allá de mis estudios, he desarrollado experiencia práctica en
+              <span className="font-bold">liderazgo</span> y <span className="font-bold">comunicación</span> como voluntario en <span className="font-bold">Glasswing
+                International</span> y mediante mi participación en el <span className="font-bold">MUN ESEN</span>
+              (Oratoria y Debate). Busco aplicar estas habilidades híbridas para
+              impulsar resultados medibles en equipos enfocados en datos.
             </p>
 
             {/* Estadísticas */}
@@ -36,21 +45,31 @@ export default function Hero() {
 
           {/* Habilidades destacadas */}
           <div className="space-y-4">
+
             <div className="bg-white/5 backdrop-blur-sm p-6 rounded-lg border border-blue-500/20 hover:border-blue-400 transition-all">
               <Target className="text-blue-400 mb-3" size={28} />
-              <h3 className="text-xl font-semibold mb-2">Estrategia Basada en Datos</h3>
+              <h3 className="text-xl font-semibold mb-2">Business Intelligence (BI)</h3>
               <p className="text-gray-400">
-                Utilizo métricas y análisis para tomar decisiones informadas que optimizan los resultados de cada proyecto.
+                Utilizo Python, Power BI y Excel para modelar datos complejos y convertirlos en información clave que optimiza la toma de decisiones.
+              </p>
+            </div>
+
+            <div className="bg-white/5 backdrop-blur-sm p-6 rounded-lg border border-emerald-500/20 hover:border-emerald-400 transition-all">
+              <Rocket className="text-emerald-400 mb-3" size={28} />
+              <h3 className="text-xl font-semibold mb-2">Desarrollo (Python/JS)</h3>
+              <p className="text-gray-400">
+                Aplico conocimientos de programación y desarrollo web para crear soluciones funcionales y automatizar procesos analíticos.
               </p>
             </div>
 
             <div className="bg-white/5 backdrop-blur-sm p-6 rounded-lg border border-amber-500/20 hover:border-amber-400 transition-all">
               <TrendingUp className="text-amber-400 mb-3" size={28} />
-              <h3 className="text-xl font-semibold mb-2">Crecimiento Sostenible</h3>
+              <h3 className="text-xl font-semibold mb-2">Liderazgo y Oratoria</h3>
               <p className="text-gray-400">
-                Implemento estrategias que generan valor a corto plazo y consolidan el posicionamiento a largo plazo.
+                Experiencia práctica en trabajo en equipo, comunicación asertiva y coordinación de equipos (Voluntariado y Debate).
               </p>
             </div>
+            
           </div>
         </div>
       </div>

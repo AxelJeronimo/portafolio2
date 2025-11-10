@@ -2,12 +2,12 @@ import React from 'react'
 
 export default function Skills() {
   const skills = [
-    { name: "Estrategia Digital", level: 95 },
-    { name: "Growth Marketing", level: 90 },
-    { name: "Brand Strategy", level: 88 },
-    { name: "Data Analytics", level: 85 },
-    { name: "SEO / SEM", level: 92 },
-    { name: "Content Marketing", level: 87 }
+    { name: "Business Intelligence", level: 95 },
+    { name: "Python / Data Science", level: 90 },
+    { name: "SQL / Bases de Datos", level: 88 },
+    { name: "Microsoft Excel / BI", level: 85 },
+    { name: "Liderazgo y Comunicación", level: 92 },
+    { name: "Marketing Digital", level: 87 }
   ];
 
   return (
@@ -22,11 +22,11 @@ export default function Skills() {
             <div key={idx}>
               <div className="flex justify-between mb-2">
                 <span className="text-gray-300 font-medium">{skill.name}</span>
-                <span className="text-amber-400 font-semibold">{skill.level}%</span>
+                <span className="text-emerald-400 font-semibold">{skill.level}%</span>
               </div>
               <div className="w-full bg-slate-700/50 rounded-full h-3 overflow-hidden">
                 <div
-                  className="h-full bg-gradient-to-r from-blue-500 to-amber-400 rounded-full transition-all duration-1000 ease-out"
+                  className="h-full rounded-full bg-gradient-to-r from-blue-500 via-amber-500 to-emerald-400"
                   style={{ width: `${skill.level}%` }}
                 />
               </div>

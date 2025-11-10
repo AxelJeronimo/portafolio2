@@ -6,10 +6,10 @@ export default function Contact() {
     <section id="contacto" className="py-20 px-4 bg-white/5">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-amber-400 bg-clip-text text-transparent">
-          ¿Listo para impulsar tu marca?
+          ¿Listo para impulsar el crecimiento con datos?
         </h2>
         <p className="text-xl text-gray-300 mb-12">
-          Conectemos y trabajemos juntos para hacer crecer tu presencia digital.
+          Conectemos para discutir cómo la <span className="font-bold">Inteligencia de Negocios</span> puede transformar tu estrategia y obtener resultados medibles.
         </p>
 
         {/* Redes de contacto */}
@@ -33,13 +33,13 @@ export default function Contact() {
 
         {/* Llamado a la acción */}
         <div className="bg-gradient-to-r from-blue-600/20 to-amber-500/20 backdrop-blur-sm rounded-lg p-8 border border-blue-500/20 hover:border-blue-400 transition-all">
-          <h3 className="text-2xl font-bold mb-4 text-white">Colaboremos</h3>
+          <h3 className="text-2xl font-bold mb-4 text-white">Oportunidades & Colaboración</h3>
           <p className="text-gray-300 mb-6 leading-relaxed">
-            Si estás buscando una estrategia digital sólida y enfocada en resultados medibles,
-            estaré encantado de escuchar tus ideas y crear algo extraordinario juntos.
+            Pasantías/oportunidades donde aplicar mis habilidades técnicas y analíticas (Python, Excel, BI)
+            para desarrollar soluciones sólidas y enfocadas en métricas.
           </p>
           <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-amber-500 rounded-full hover:shadow-lg hover:shadow-blue-500/40 transition-all font-semibold">
-            Agenda una llamada
+            Enviar un Mensaje
           </button>
         </div>
       </div>
