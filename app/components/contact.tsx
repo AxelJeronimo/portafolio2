@@ -23,7 +23,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="#"
+            href="http://www.linkedin.com/in/axel-alvarenga"
             className="flex items-center gap-2 px-6 py-3 bg-white/5 backdrop-blur-sm rounded-lg border border-amber-500/20 hover:border-amber-400 transition-all"
           >
             <Linkedin size={20} />
