@@ -33,13 +33,13 @@ const projects: Project[] = [
       "Diseño optimizado que redujo el tiempo de desarrollo Front-end.",
       "Experiencia de usuario validada y aprobada.",
     ],
-    liveUrl: "https://www.enlace-a-tu-figma-o-demo.com",
+    liveUrl: "https://github.com/javo-zy/jambo-app.git",
   },
 
   // PROYECTO 2: Dyna Tours (Análisis y Desarrollo)
   {
     id: 2,
-    title: "Dyna Tours - Web Front-end",
+    title: "Dina Tours - Web Front-end",
     category: "Análisis y Desarrollo",
     company: "Proyecto Personal",
     shortDesc:
@@ -55,18 +55,37 @@ const projects: Project[] = [
       "Sitio 100% responsivo y adaptado a móviles.",
       "Puntaje de rendimiento en Lighthouse superior a 85/100.",
     ],
-    liveUrl: "https://www.enlace-a-tu-github-o-web.com",
+    liveUrl: "https://dinatours.vercel.app",
   },
 
   // PROYECTO 3: Campaña (Estrategia Digital)
   {
     id: 3,
-    title: "Campaña de Lanzamiento de Producto X",
+    title: "Campaña de Lanzamiento de Producto de B&C",
     category: "Estrategia Digital",
-    company: "Consultoría",
+    company: "Bread&Chiken",
     shortDesc:
       "Diseño y ejecución de una campaña integral, utilizando análisis de datos para optimizar el retorno de la inversión.",
     tags: ["Estrategia Digital", "Google Ads", "Análisis de Datos", "KPIs"],
+    image: "/1.jpg",
+    fullDescription: [
+      "Análisis de necesidades y generación de soluciones.",
+      "Diseño agradable con funcionalidades adaptables al mercado.",
+    ],
+    results: [
+      "Experiencia medianamente disfrutable",
+      "Adquisición de habilidades Blandas",
+      "Adquisición de habilidades de Power Apps.",
+    ],
+  },
+  {
+    id: 4,
+    title: "Desarollo de proyecto FOURTI",
+    category: "Desarrollo de StarUp",
+    company: "Proyecto Freelance",
+    shortDesc:
+      "Creación y desarrollo de bases de proyecto StarUP, utilizando tecnologias de Microsoft.",
+    tags: ["Desarrollo Digital", "Figma", "Power Apps", "Canva"],
     image: "/1.jpg",
     fullDescription: [
       "Análisis de segmentación de audiencia y propuesta de valor.",
@@ -74,8 +93,8 @@ const projects: Project[] = [
     ],
     results: [
       "Aumento del 40% en visibilidad de marca.",
-      "Generación de 10,000 leads en el primer mes.",
-      "ROI del 300% en campañas publicitarias.",
+      "Generación de %100 ventas en el primer día.",
+      "ROI del 120% en campañas publicitarias.",
     ],
   },
 ];
